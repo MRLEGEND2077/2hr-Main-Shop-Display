@@ -1,0 +1,106 @@
+@font-face {
+  font-family: rs;
+  font-weight: 200;
+  src: url(../../Assets/Fonts/Digi\ Rastin\ Plus\ Circle.ttf);
+}
+.all-postes {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+#titr {
+  font-weight: 100;
+  font-size: 17px;
+}
+
+.post {
+  background-color: rgb(241, 241, 241);
+  
+
+  width: 25%;
+  height: auto;
+}
+.post-1,
+.post-2,
+.post-3,
+.post-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: auto;
+  border: 1px solid rgb(241, 241, 241);
+  border-radius: 10px;
+  
+
+  box-shadow: 4px 10px 8px -4px rgba(0, 0, 0, 0.3);
+}
+.post-1 img {
+  width: 100%;
+  height: auto;
+  border: 1px solid rgb(241, 241, 241);
+  border-radius: 10px;
+ 
+}
+.post-2 img {
+  width: 100%;
+  height: auto;
+  border: 1px solid rgb(241, 241, 241);
+  border-radius: 10px;
+}
+.post-3 img {
+  width: 100%;
+  height: auto;
+  border: 1px solid rgb(241, 241, 241);
+  border-radius: 10px;
+}
+.post-4 img {
+  width: 100%;
+  height: auto;
+  border: 1px solid rgb(241, 241, 241);
+  border-radius: 10px;
+}
+.post-1 h4 {
+  color: black;
+}
+.post-2 h4 {
+  color: black;
+}
+.post-3 h4 {
+  color: black;
+}
+.post-4 h4 {
+  color: black;
+}
+.post-1 h5 {
+  color: rgb(143, 142, 142);
+}
+.post-2 h5 {
+  color: rgb(143, 142, 142);
+}
+.post-3 h5 {
+  color: rgb(143, 142, 142);
+}
+.post-4 h5 {
+  color: rgb(143, 142, 142);
+}
+
+.info-price {
+  display: inline-flex;
+  padding: 0%;
+  gap: 40px;
+  font: 100;
+    font-family: rs;
+}
+
+.discription {
+  display: inline-flex;
+    font-family: rs;
+}
+
+
+
+
+

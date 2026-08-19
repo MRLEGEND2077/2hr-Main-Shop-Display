@@ -1,0 +1,107 @@
+@font-face {
+  font-family: lalezar;
+  font-weight: 200;
+  src: url(/Assets/Fonts/Lalezar-Font/OTF/Lalezar-Regular.otf);
+}
+@font-face {
+  font-family: lalezar;
+  font-weight: 300;
+  src: url(/Assets/Fonts/Lalezar-Font/TTF/Lalezar-Regular.ttf);
+}
+
+* {
+  box-sizing: border-box;
+  color: #333;
+  font-family: lalezar;
+  font-weight: 100;
+}
+
+.header {
+  background-color: white;
+  width: 100%;
+  height: 5rem;
+  box-shadow: 0px 1px 10px #bbb;
+}
+body {
+  margin: 0;
+  direction: rtl;
+}
+.container {
+  width: 100%;
+  padding: 1rem 2rem;
+}
+.clearfix {
+  clear: both;
+}
+
+.header-logo img {
+  width: 3rem;
+  height: auto;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+.header-nav {
+  display: inline-flex;
+  justify-content: flex-start;
+  flex-direction: row-reverse;
+  gap: 1rem;
+  direction: ltr;
+}
+.header-nav button {
+  align-items: flex-end;
+}
+
+.header-nav  li {
+  padding: 15px 10px;
+  float: right;
+  position: relative;
+}
+.drop-down-m{
+  position: absolute;
+  width: 150px;
+  height: auto;
+  background-color: white;
+  top: 100%;
+  right: 5px;
+  display: none;
+}
+.drop-down-m li{
+font-size: 16px;
+
+}
+.drop-down{display: none;}
+.drop-down:hover{display: block;}
+
+.btn {
+  width: 70px;
+  height: 40px;
+  background-color: lightblue;
+  transition:
+    background-color 1s ease-out,
+    transform 1s ease-out;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  margin: 5px;
+  border-radius: 5px;
+}
+.btn:hover {
+  background-color: blue;
+  transform: scale(1.1);
+}
+.header-icon {
+  width: 10px;
+  height: 10px;
+  background: url(/HTML\ CSS/Assets/images/down-arrow.png);
+
+  background-size: cover;
+
+  display: inline-block;
+  float: left;
+}
