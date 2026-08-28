@@ -1,0 +1,30 @@
+.breadcrumbs {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(226, 226, 226);
+  height: auto;
+  border-radius: 15px;
+}
+.breadcrumbs a::after {
+  content: "";
+  /* دیسپلی حتما inline-block باشه یادت نره */
+  display: inline-block;
+  background: url(././../../Assets/Images/left-arrow.png);
+  width: 15px;
+  height: 15px;
+}
+.breadcrumbs a {
+  color: rgb(105, 105, 105);
+}
+.breadcrumbs span {
+  color: rgb(105, 105, 105);
+}
+
+.breadcrumbs li {
+  display: inline-block;
+}
+.breadcrumbs ul {
+  margin: 2px 2px;
+  padding: 5px;
+}

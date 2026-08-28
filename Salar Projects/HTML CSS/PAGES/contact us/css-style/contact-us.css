@@ -1,0 +1,36 @@
+.main-contact-us {
+  display: flex;
+  flex-wrap: wrap;
+}
+.contact-us {
+  width: 50%;
+  margin-bottom: 10px;
+}
+.contact-massage {
+  width: 100%;
+  margin-bottom: 10px;
+  color: #777;
+}
+.contact-massage textarea {
+  display: block;
+  width: 100%;
+  height: 200px;
+  color: #777;
+  outline: none;
+}
+
+.contact-us label {
+  display: block;
+  color: #777;
+}
+.contact-us input {
+  border-radius: 10px;
+  border: 1px solid #777;
+  width: 100%;
+  padding: 5px;
+  outline: none;
+}
+.p-15 {
+  padding-left: 15px;
+  padding-right: 15px;
+}

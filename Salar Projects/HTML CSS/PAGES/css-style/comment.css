@@ -1,0 +1,21 @@
+.comment{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+.main-cm{
+    
+}
+.cm{
+    background-color: rgb(221, 221, 221);
+    border-radius: 10px;
+   
+    
+}
+.cm img{
+    width: 30px;
+    height: 30px;   
+
+}
